@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.text-section {
+    max-width: 300px;
+}
+
+.text-section h1 {
+    font-size: 100px;
+    font-weight: bold;
+    background: url('wood-texture.jpg');
+    /* Yog‘och tekstura uchun */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text-section p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.4;
+}
+
+.read-more {
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    border: 2px solid #2e7d32;
+}
+
+.read-more:hover {
+    background-color: #1b5e20;
+}
+
+.image-section {
+    width: 40%;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image-section::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #d9b99b;
+    border-radius: 20px;
+    z-index: -1;
+}
