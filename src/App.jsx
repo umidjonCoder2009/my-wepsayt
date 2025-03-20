@@ -6,6 +6,7 @@ import Navbar from "./companents/navbar";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import SHop from"./pages/SHop"
+import Contact from"./pages/Contact"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/shop" element={<SHop/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
     </>
   );
