@@ -11,12 +11,9 @@ function Navbar() {
       <Link to={"/about"}>
         <a>Project</a>
       </Link>
-    
+
       <Link to={"/services"}>
         <a>Services</a>
-      </Link>
-      <Link to={"/about"}>
-        <a>About</a>
       </Link>
       <Link to={"/blog"}>
         <a>Blog</a>
